@@ -8,3 +8,10 @@
     B2: tạo ra commit để ghi chú lại sự thay đổi code, ta dùng lệnh: "git commit -m "lời nhắn"". Muốn kiểm tra các commit thì ta dùng lệnh: "git log"
 
     B3: giờ ta push code từ Local Repo lên Remote Repo, ta dùng lệnh: "git push -u origin + tên nhánh: master (cho máy Win hoặc) main (cho máy Mac)", những lần sau chỉ cần dùng lệnh: "git push origin"  
+
+- Khi đi làm hoặc tham gia một dự án mới mà cần lấy source code thì dùng lệnh: "git clone + tên url"
+
+- Khi đi làm ta muốn test qua một số chức năng mới, nhưng sợ ảnh hưởng tới các đoạn code cũ đang có, ta sẽ commit lại đoạn code đó và chỉnh sửa, nếu muốn quay về vị trí commit trước đó khi gặp lỗi cho code hiện tại, ta dùng lệnh: "git stash"
+
+- Các bước để tạo nhánh:
+    B1: Dùng lệnh: "git branch + tên nhánh", còn muốn kiểm tra các nhánh đang có, thì dùng lệnh: "git branch". Nếu muốn chuyển nhánh sẽ dùng lệnh: "git checkout + tên nhánh". Còn nếu muốn vừa tạo nhánh mới và vừa chuyển tới nhanh mới đó luôn, ta dùng lệnh: "git checkout -b + tên nhánh"
