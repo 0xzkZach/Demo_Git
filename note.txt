@@ -15,3 +15,5 @@
 
 - Các bước để tạo nhánh:
     B1: Dùng lệnh: "git branch + tên nhánh", còn muốn kiểm tra các nhánh đang có, thì dùng lệnh: "git branch". Nếu muốn chuyển nhánh sẽ dùng lệnh: "git checkout + tên nhánh". Còn nếu muốn vừa tạo nhánh mới và vừa chuyển tới nhanh mới đó luôn, ta dùng lệnh: "git checkout -b + tên nhánh"
+
+    B2: Sau khi tạo nhánh xong, ta dùng các lệnh git add ., rồi git commit -m "message", rồi tiếp tới git push -u origin + tên nhánh mới muốn public trên remote
