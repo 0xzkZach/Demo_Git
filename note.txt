@@ -5,4 +5,6 @@
     B1: ta push các file có sự thay đổi lên staging area, dùng lệnh: "git add + tên file" nếu muốn đẩy từng file. Nếu muốn push tất cả các file thì dùng lệnh: "git add .", và để kiểm tra sự thay đổi xem file có đẩy lên hết chưa thì ta có thể  dùng lệnh: "git status". Muốn đảo ngược lại việc thêm các file có sự thay đổi lên staging area thì ta dùng lệnh: "git reset"
     * Note: Untracked files là chưa push, còn Changes to be committed nghĩa là đã push.
 
-    B2: tạo ra commit để ghi chú lại sự thay đổi code, ta dùng lệnh: "git commit -m "lời nhắn"". Muốn kiểm tra các commit thì ta dùng lệnh: "git log"  
+    B2: tạo ra commit để ghi chú lại sự thay đổi code, ta dùng lệnh: "git commit -m "lời nhắn"". Muốn kiểm tra các commit thì ta dùng lệnh: "git log"
+
+    B3: giờ ta push code từ Local Repo lên Remote Repo, ta dùng lệnh: "git push -u origin + tên nhánh: master (cho máy Win hoặc) main (cho máy Mac)", những lần sau chỉ cần dùng lệnh: "git push origin"  
